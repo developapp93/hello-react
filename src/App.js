@@ -1,12 +1,13 @@
-import './App.css';
+import React, { Component } from "react";
 
-function App() {
-    return (
-        <div>
-            <h1>Hello React</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus cumque illum officiis voluptas inventore nihil quo necessitatibus similique odit debitis et quis dolorem non consequatur, quam recusandae culpa beatae sint!</p>
-        </div>
-    );
+class App extends Component {
+    render() {
+        return (
+            <div>
+                <h1>Rendering Elements</h1>
+            </div>
+        );
+    }
 }
 
 export default App;
