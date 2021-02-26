@@ -1,12 +1,5 @@
 import React, { Component } from "react";
-
-class Header extends Component {
-    render() {
-        return (
-            <h2>Class Component Dalam 1 File</h2>
-        );
-    }
-}
+import Header from "./Header";
 
 class App extends Component {
     render() {
