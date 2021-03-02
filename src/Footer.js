@@ -1,16 +1,6 @@
 import React from "react";
 
-// const Footer = () => {
-//     return (
-//         <div>
-//             <h4>Halaman Footer</h4>
-//             <p>@2018</p>
-//         </div>
-//     );
-// };
-
-// Metode penulisan function component yang lainnya
-function Footer() {
+const Footer = () => {
     return (
         <div>
             <h4>Halaman Footer</h4>
